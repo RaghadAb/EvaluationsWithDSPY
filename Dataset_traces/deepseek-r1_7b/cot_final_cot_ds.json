@@ -1,0 +1,49 @@
+{
+  "prgm": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Provide Recommendation along with the reasoning for the given question from the domain of Email, Network \nMonitoring and Management. The output has to be python dictionary with reasoning and answer keys",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "Questions or situation on Email, Network or Domain related Configuration"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Recommendation with reasoning for the question or situation"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Provide Recommendation along with the reasoning for the given question from the domain of Email, Network \nMonitoring and Management. The output has to be python dictionary with reasoning and answer keys",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "Questions or situation on Email, Network or Domain related Configuration"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Recommendation with reasoning for the question or situation"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10.12",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.1.0"
+    }
+  }
+}
